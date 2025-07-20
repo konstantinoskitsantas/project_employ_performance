@@ -1,7 +1,7 @@
 
 # 📊 Power BI Project: Employee Quality & Performance Dashboard
 
-This Power BI project leverages operational quality data sourced from three tables in an Excel document to create a comprehensive and interactive **Employee Quality Dashboard**. The dataset includes employee and auditor details, task metrics (Total Tasks, Samples, Defects, Fatal Errors), and metadata such as supervisors and work locations. The goal is to transform raw quality control data into powerful visual insights that enable data-driven performance tracking and decision-making.
+This Power BI project leverages operational quality data sourced from three tables in an Excel document to create a comprehensive and interactive **Employee Quality Dashboard**. The dataset includes employee and auditor details, task metrics (Total Tasks, Samples, Defects, Fatal Errors) and metadata such as supervisors and work locations. The goal is to transform raw quality control data into powerful visual insights that enable data-driven performance tracking and decision-making.
 
 ---
 
@@ -31,13 +31,13 @@ This Power BI project leverages operational quality data sourced from three tabl
   - Samples
   - Defects
   - Fatal Errors
-
 ---
 
 ### 🎯 Task 3: Gauge Chart
 - Display the `Quality Score` as a **percentage gauge**.
 - Place in a prominent area of the report for instant feedback.
 
+![Card visuals%](images_employ/image1.png)
 ---
 
 ### ⚖️ Task 4: Scatter Chart
@@ -45,22 +45,26 @@ This Power BI project leverages operational quality data sourced from three tabl
 - Size data points by `Fatal Errors`.
 - Use `Fatal Errors` as a **Play Axis** to show progression.
 
+![Samples and Defects](images_employ/image2.png)
 ---
 
 ### 📈 Task 5: Area Chart
 - Show **Fatal Errors over time by month** to identify trends.
 
+![Fatal errors over month](images_employ/image3.png)
 ---
 
 ### 🍩 Task 6: Donut Chart
 - Display **Quality Score by Supervisor**.
 - Format data labels to show **Category and Data Value**.
 
+![Quality Score](images_employ/image4.png)
 ---
 
 ### 📊 Task 7: Clustered Bar Chart
 - Display `Sampling%` by Supervisor.
 
+![Sampling% by supervisor](images_employ/image5.png)
 ---
 
 ### 🗺️ Task 8: Map Chart
@@ -70,6 +74,7 @@ This Power BI project leverages operational quality data sourced from three tabl
 `File > Options and Settings > Options > Security > Enable “Use map and filled map visuals”`  
 Then restart Power BI.
 
+![Quality Score by Work Location](images_employ/image6.png)
 ---
 
 ### 🧩 Task 9: Tooltips & Page Naming
@@ -78,18 +83,14 @@ Then restart Power BI.
   - Set as **Tooltip**
   - Rename it to **EMP Tooltip**
 
----
-
-### 📌 Task 10: EMP Quality Score
-- Use a **Clustered Bar Chart** to show `Quality Score by EMP Name`.
-- Ensure values are displayed as **percentages**.
-
+![Tooltip](images_employ/image7.png)
 ---
 
 ### 💡 Task 11: Employee Performance by Supervisor
 - Create a custom visualization using **critical thinking** to compare employee performance grouped by Supervisor.
 - Consider combining multiple measures (e.g., Quality Score, Sampling%) for deeper insights.
 
+![Employee Performance by Supervisor](images_employ/image8.png)
 ---
 
 ## 🛠️ Tools Used

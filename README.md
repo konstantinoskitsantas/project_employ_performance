@@ -31,11 +31,18 @@ This Power BI project leverages operational quality data sourced from three tabl
   - Samples
   - Defects
   - Fatal Errors
+ 
+With Card visuals, we highlight the fundamental quantities
+
 ---
 
 ### 🎯 Task 3: Gauge Chart
 - Display the `Quality Score` as a **percentage gauge**.
 - Place in a prominent area of the report for instant feedback.
+
+The Gauge chart takes Quality Score and turns it into an instantly readable performance dial.
+It answers the high-level question: How good is the work being done across the board?
+A falling needle signals urgency; a rising one signals consistency and control.
 
 ![Card visuals%](images_employ/image1.png)
 ---
